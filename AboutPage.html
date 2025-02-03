@@ -1,0 +1,269 @@
+<html>
+    <title>About Me</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0f1b2b;
+            color: #ffffff;
+            font-size: 20px;
+        }
+      
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px 80px;
+            background-color: #0f292b;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+        color: #f57c00;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: #f88820;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 50px;
+
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 100px;
+        }
+        .section-1 {
+            background-color: #1E2A2F;
+            padding: 40px;
+            border-radius: 20px;
+            color: #ffc38a;
+            font-size: 18px;
+        }
+
+        .section-2 {
+            background-color: #1E2A2F;
+            padding: 25px;
+            border-radius: 20px;
+            color: #fffefe;
+            font-size: 18px;
+        }
+
+        .section-3 {
+            background-color: #1E2A2F;
+            padding: 40px;
+            border-radius: 20px;
+            color: #fcfbfb;
+            font-size: 18px;
+        }
+
+        .section-4 {
+            background-color: #1E2A2F;
+            padding: 40px;
+            border-radius: 20px;
+            color: #ffc38a;
+            font-size: 18px;
+        }
+        .section-1 h2, .section-2 h2, .section-3 h2, .section-4 h2 {
+            color: #fc8195;
+        }
+        .skills-container {
+            position: relative;
+            background-color: #1E2A2F;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .skill {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+
+
+        .skill p {
+            margin: 5px 0;
+            font-weight: lighter;
+            flex: 1;
+        }
+
+        .percentage {
+            position: absolute;
+            right: 0;
+            font-weight: lighter;
+        }
+
+        .skills-bar {
+            background-color: #ddd;
+            height: 10px;
+            border-radius: 5px;
+            margin-top: 5px;
+            position: relative;
+        }
+
+        .bar {
+            height: 10px;
+            background-color: #4c6baf;
+            border-radius: 5px;
+        }
+
+        .section-1 {
+            border: 2px solid transparent;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .section-1:hover{
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(192, 192, 191, 0.8);
+            border-color: rgba(192, 192, 191, 0.8);
+        }
+
+        
+        .section-2 {
+            border: 2px solid transparent;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .section-2:hover{
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(192, 192, 191, 0.8);
+            border-color: rgba(192, 192, 191, 0.8);
+        }
+
+        
+        .section-3 {
+            border: 2px solid transparent;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .section-3:hover{
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(192, 192, 191, 0.8);
+            border-color: rgba(192, 192, 191, 0.8);
+        }
+
+        
+        .section-4 {
+            border: 2px solid transparent;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .section-4:hover{
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(192, 192, 191, 0.8);
+            border-color: rgba(192, 192, 191, 0.8);
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">About Me</div>
+        <div class="menu">
+          <a href="HomePage.html">HOME</a>
+          <a href="AboutPage.html">ABOUT</a>
+          <a href="ProjectMainPage.html">PROJECTS</a>
+          <a href="ContactPage.html">CONTACT</a>
+        </div>
+      </nav>
+    
+    <div class="container">
+        <div class="grid-container">
+            <div class="section-1">
+                <h2>BACKGROUND</h2>
+                <br>
+                <p>Went to Gothami Balika Vidyalaya, Colombo 10.</p><br>
+                <p>Studying at the Department of Technology, Faculty of Indigenous Health Sciences and Technology in Gampaha Wickramarachchi University of Indigenous Medicine.</p><br>
+                <p>Degree program is BHSc (Hons) in Health Information and Communication Technology.</p><br>
+                <p>One-month training in IT division at the Ministry of Women, Child Affairs, and Social Empowerment, Sethsiripaya, Battaramulla.</p><br>
+            </div>
+
+            <div class="section-2">
+                <h2>TECHNICAL SKILLS</h2>
+                <div class="skills-container">
+                <div class="skill">
+                    <p>C Programming</p>
+                    <span class="percentage">60%</span>
+                </div>
+                <div class="skills-bar"><div class="bar" style="width: 60%;"></div></div><br>
+            
+                <div class="skill">
+                    <p>HTML</p>
+                    <span class="percentage">80%</span>
+                </div>
+                <div class="skills-bar"><div class="bar" style="width: 80%;"></div></div><br>
+            
+                <div class="skill">
+                    <p>Java</p>
+                    <span class="percentage">50%</span>
+                </div>
+                <div class="skills-bar"><div class="bar" style="width: 50%;"></div></div><br>
+            
+                <div class="skill">
+                    <p>Figma</p>
+                    <span class="percentage">90%</span>
+                </div>
+                <div class="skills-bar"><div class="bar" style="width: 90%;"></div></div><br>
+            
+                <div class="skill">
+                    <p>Adobe Photoshop</p>
+                    <span class="percentage">90%</span>
+                </div>
+                <div class="skills-bar"><div class="bar" style="width: 90%;"></div></div><br>
+            
+                <div class="skill">
+                    <p>Microsoft Office Package</p>
+                    <span class="percentage">90%</span>
+                </div>
+                <div class="skills-bar"><div class="bar" style="width: 90%;"></div></div><br>
+            </div>
+            </div>
+            
+                   
+            <div class="section-3">
+                <h2>SOFT SKILLS</h2>
+                <br>
+                <p>Quick Learner</p>
+                <p>Communication Skills</p>
+                <p>Team Work Skills</p>
+                <p>Problem Solving Skills</p>
+            </div>
+            
+            <div class="section-4">
+                <h2>INTERESTS</h2>
+                <br>
+                <p>Graphic Design, Networking, IoT</p>
+                <p>Photography</p>
+                <p>Sports</p>
+                <p>Music</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

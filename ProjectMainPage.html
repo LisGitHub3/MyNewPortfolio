@@ -1,0 +1,186 @@
+<html>
+    <title>My Projects</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0f1b2b;
+            color: #ffffff;
+            font-size: 20px;
+        }
+
+        /* Header Section */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px 80px;
+            background-color: #0f292b;
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        header a:hover {
+            color: #f88538;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: #f88820;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Main Section */
+        .main-content {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 180px 150px;
+        }
+
+        .main-content h1 {
+            font-size: 25px;
+            color: #ff857e;
+        }
+
+        .main-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            left: 200px;
+            padding: 10px;
+        }
+
+        /* Projects Section */
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 80px;
+        }
+
+        .project-card {
+            background-color: #24363e;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 340px;
+            height: 290px;
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            right: 200px;
+        }
+
+        .project-card h3 {
+            margin: 15px 0;
+            color: #ff725e;
+            font-size: 22px;
+        }
+
+        .button {
+            margin: 15px 0;
+            padding: 10px 30px;
+            background-color: #ffeb8e;
+            border: none;
+            border-radius: 15px;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            cursor: pointer;
+            color: #030303;
+        }
+
+        .button:hover {
+            background-color: #ffd24c;
+        }
+
+        .project-card {
+            border: 2px solid transparent;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .project-card:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(170, 170, 170, 0.8);
+            border-color: rgba(170, 170, 170, 0.8);
+        }
+
+
+    
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">My Projects</div>
+        <nav>
+            <a href="HomePage.html">HOME</a>
+            <a href="AboutPage.html">ABOUT</a>
+            <a href="ProjectMainPage.html">PROJECTS</a>
+            <a href="ContactPage.html">CONTACT</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <br>
+        <br>
+        <h1>LATEST PROJECTS</h1><br>
+        <p>Let's explore a carefully assembled collection of my projects, highlighting various works that 
+            demonstrate my technical expertise, creativity, and ability to solve problems. Every 
+            project offers a concise summary, important characteristics, and the technologies applied, 
+            giving insights into my contributions and the value provided.</p>
+            <br>
+            <br>
+
+        <div class="projects">
+            <!-- IoT Project -->
+            <div class="project-card">
+                <img src="image 06.jpeg" alt="IoT Project">
+                <h3>IOT Project</h3><br>
+                <a href="IOTProject.html" class="button">Read More..</a>
+
+            </div>
+            <!-- Minitab Project -->
+            <div class="project-card">
+                <img src="image 07.jpeg" alt="Minitab Project">
+                <h3>Minitab Project</h3><br>
+                <a href="MINITABProject.html" class="button">Read More..</a>
+
+            </div>
+            <!-- Web Development Project -->
+            <div class="project-card">
+                <img src="image 08.jpeg" alt="Web Development Project">
+                <h3>Web Development Project</h3><br>
+                <a href="WEBProject.html" class="button">Read More..</a>
+
+            </div>
+
+             <!-- CSR Project -->
+             <div class="project-card">
+                <img src="image 09.jpeg" alt="CSR Project">
+                <h3>CSR Projects</h3><br>
+                <a href="CSRProject.html" class="button">Read More..</a>
+
+            </div>
+
+
+            
+        </div>
+    </div>
+</body>
+</html>
